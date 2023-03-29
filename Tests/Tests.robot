@@ -13,4 +13,5 @@ test1
     input text    name:${s}     ${search}
    ${ele}    Get WebElement    //input[@class = 'gNO89b']
    Execute Javascript    arguments[0].click();     ARGUMENTS    ${ele}
+    page should contain    home
 
